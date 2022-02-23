@@ -2,25 +2,29 @@ body {
 
 }
 
+
 #banner {
     width: 100%;
 }
 
 .principal {
-    background: #CCCCCC;
     padding: 30px;
 }
-
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
 .tituloprincipal{
     padding-left: 20px;
 }
 
 .titulocentralizado {
-    text-align: center;
+    text-align: left;
 }
 
 p {
-    text-align: center;
+    text-align: left;
 }
 
 #missao {
@@ -28,7 +32,7 @@ p {
 }
 
 em strong {
-    color: rgb(255, 0, 0);
+    font-weight: bold;
 }
 
 .itens {
@@ -48,5 +52,5 @@ ul {
 }
 
 .imagemBeneficios {
-    width: 50%;
+    width: 25%;
 }
